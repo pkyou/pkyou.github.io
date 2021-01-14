@@ -1,27 +1,13 @@
-# Marat
+# Vno - Jekyll
 
-![Marat](https://raw.githubusercontent.com/JohnCoene/marat/master/assets/img/screenshot.png)
+[Vno Jekyll](https://github.com/onevcat/vno-jekyll) is a theme for [Jekyll](http://jekyllrb.com). It is a port of my Ghost theme [vno](https://github.com/onevcat/vno), which is originally developed from [Dale Anthony's Uno](https://github.com/daleanthony/uno).
 
-Revive the values of the Enlightenment with `marat`.
+## Live Demo
 
-See [Marat in action](http://marat.john-coene.com).
+See [Vno - Jekyll](http://vno.onevcat.com) site and [my blog](http://onevcat.com).
 
-Marat is heavily inspired by [L'Ami du peuple](https://en.wikipedia.org/wiki/L%27Ami_du_peuple), a newspaper written by [Jean-Paul Marat](https://en.wikipedia.org/wiki/Jean-Paul_Marat) during the French Revolution, in which he was a j vocal advocate for the rights of man and liberty.
+You can also find some instruction as well as other sites using Vno theme in [this page](http://vno.onevcat.com/2016/02/hello-world-vno/).
 
-1. Adapt the `_config.yml` file
-2. Replace/Delete the posts
-3. Change `about.md`
-4. Change or add your links in the `nav.yml` file located in the `_data` folder
-5. Replace the `favicon.ico`
-6. Customise the `404.md` page in the root directory
-6. Run `bundle exec jekyll serve --watch`
-7. Enlighten the masses!
+## Licence
 
-> Unlike Marat's pamphlets the theme is fully responsive.
-
-Plugins:
-
-Marat includes the following plugins.
-
-* [jekyll-roman](https://github.com/paulrobertlloyd/jekyll-roman)
-* [jekyll-seo-tag](https://github.com/jekyll/jekyll-seo-tag)
+Great thanks to [Dale Anthony](https://github.com/daleanthony) and his [Uno](https://github.com/daleanthony/uno). Vno Jekyll is based on Uno, and contains a lot of modification on page layout, animation, font and some more things I can not remember. Vno Jekyll is followed with Uno and be licensed as [Creative Commons Attribution 4.0 International](http://creativecommons.org/licenses/by/4.0/). See the link for more information.
