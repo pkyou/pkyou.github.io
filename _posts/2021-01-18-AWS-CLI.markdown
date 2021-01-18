@@ -1,0 +1,19 @@
+# Install
+[install on MAC](https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-cmd)
+# Verify install
+`aws --version`
+# Configure
+`aws configure`
+The AWS CLI stores sensitive credential information that you specify with aws configure in a local file named credentials, in a folder named .aws in your home directory. The less sensitive configuration options that you specify with aws configure are stored in a local file named config, also stored in the .aws folder in your home directory.
+## set
+`aws configure set region us-es-1 --profile Admin`
+# 配置文件
+`credentials` 文件内 可使用`--profile`指定用户 
+或者使用`export AWS_PROFILE=user1` 来指定默认用户
+## 获取用户密钥
+https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-configure-quickstart.html
+
+# EC2 
+`aws ec2 run-instances --image-id  ami-XXXXX`
+<br/>
+[DOC](https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-configure-quickstart.html)
