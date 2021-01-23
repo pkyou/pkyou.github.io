@@ -14,6 +14,6 @@ The AWS CLI stores sensitive credential information that you specify with aws co
 https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-configure-quickstart.html
 
 # EC2 
-`aws ec2 run-instances --image-id  ami-XXXXX`
+`aws ec2 start-instances --instance-ids i-ididid`
 <br/>
 [DOC](https://docs.aws.amazon.com/zh_cn/cli/latest/userguide/cli-configure-quickstart.html)
