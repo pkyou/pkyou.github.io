@@ -53,3 +53,7 @@ https://brew.sh/index_zh-cn.html
 yarn npm
 Yarn是FaceBook/Google/Exponent/Tilde联合退出的新的JS包管理工具，是为了弥补npm的一些缺陷而出现的。
 
+# python 包管理工具
+ pip
+ pip3
+
