@@ -1,9 +1,58 @@
-# 六边形架构
-传统分层controller --- service ---dao,是一种自上而下的分层结构。
-六边形架构，也就是端口和适配器，关注的是内部和外部，内部应用程序和外部设备完全隔离开来，通过适配器进行通信。
-## 适配器
-将与外设交互的数据转换为应用程序能理解的数据。
-## 端口
-端口体现的是应用程序对外部暴露的接口
+# Install 
 
-一般的六边形架构架构会在左右两端各有端口，左边代表对外提供服务，右边代表调用外部服务
+`brew install mysql`
+
+
+
+result:
+
+```
+We've installed your MySQL database without a root password. To secure it run:
+    mysql_secure_installation
+
+MySQL is configured to only allow connections from localhost by default
+
+To connect run:
+    mysql -uroot
+
+To have launchd start mysql now and restart at login:
+  brew services start mysql
+  brew services stop mysql
+Or, if you don't want/need a background service you can just run:
+  mysql.server start
+  mysql.server stop
+```
+
+```
+==> Summary
+🍺  /usr/local/Cellar/mysql/8.0.23_1: 298 files, 293.1MB
+==> Caveats
+==> protobuf
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/protobuf
+```
+
+## mysql_secure_installation
+mysql_secure_installation
+
+Securing the MySQL server deployment.
+
+Connecting to MySQL using a blank password.
+
+VALIDATE PASSWORD COMPONENT can be used to test passwords
+and improve security. It checks the strength of password
+and allows the users to set only those passwords which are
+secure enough. Would you like to setup VALIDATE PASSWORD component?
+
+Press y|Y for Yes, any other key for No:
+
+## Ordors
+
+```
+mysql -u root -p  输入密码。
+show databases;所有数据库列表
+use mysql切换数据库
+show tables; 所有表列表
+describe user; 表结构 
+show global variables like 'port'; 端口号
+```
